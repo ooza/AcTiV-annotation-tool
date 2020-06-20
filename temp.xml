@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<video channel="Aljazeera" duration="00:04:51" fps="20" id="1" nbOfFrames="1200" resolution="1080p">
+  <staticText nbOftextBox="1">
+    <textBox id="1" nbOfaInterval="1">
+      <aInterval frame_E="152" frame_S="137" id="1"/>
+      <position height="104" width="1100" x="299" y="871"/>
+      <content bgColor="252, 251, 240" bgType="transparent " nbTextLines="1" textColor="252, 251, 240">
+        <textLine height="104" id="1" transcription="hfudshfdsui" transcriptionLabel="" width="1100" x="299" y="871"/>
+      </content>
+    </textBox>
+  </staticText>
+  <scrollingText bgColor="@virginTicker(Image)" bgType="opaque" orientation="left-right" runningSpeed="6,770 pixel/frame" textColor="255, 255, 255">
+    <bandPosition/>
+    <content nbOftickerInformation="0"/>
+  </scrollingText>
+</video>
