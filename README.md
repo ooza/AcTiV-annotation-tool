@@ -14,8 +14,9 @@ and spacing. Once a rectangle is selected, a new set of information will be crea
 contains the following elements: *Position*: x, y, width and height. *Content*: text strings, text color, background color, background type (transparent,
 opaque). This set of information, along with the apparition and disapparition frame number of each textline, are saved in the *global XML file*:
 
-![Global](/images/PartofaglobalXMLfile.png)
-
+<p align="center">
+  <img width="900" height="680" src="/images/PartofaglobalXMLfile.png">
+</p>
 
 Dynamic text, in news content, is composed of scrolling series of tickers. To annotate this type of text, we note for each ticker its content, the first frame where the ticker appears, and the initial offset in the first frame, which is estimated using a virtual line. This information
 is stored in the *scrollingText* element of the global XML file.
@@ -30,6 +31,13 @@ generated, one for the detection task and the other for the recognition task. He
 The ground-truth information of the detection task are provided at the line level for each frame. The following figure depcits an example of a ground-truth XML file and its corresponding textline image:
 
 <img src="/images/xmlR.png" width="716" height="175">
+
+## Installation
+This is a desktop application implemented in Java, so all you need to do is build the project using an IDE like NetBeans. The IDE
+automatically copies all of the JAR files on the projects classpath to your projects dist/lib folder. To run the project go to the dist folder and double clic on the jar file or from command line type the following:
+```bash
+java -jar "AcTiV.jar" 
+```
 
 ## Citation
 If you use `AcTiV-GT` please use the following citation
