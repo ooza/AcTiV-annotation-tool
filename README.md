@@ -16,17 +16,20 @@ opaque). This set of information, along with the apparition and disapparition fr
 
 ![Global](/images/PartofaglobalXMLfile.png)
 
+
 Dynamic text, in news content, is composed of scrolling series of tickers. To annotate this type of text, we note for each ticker its content, the first frame where the ticker appears, and the initial offset in the first frame, which is estimated using a virtual line. This information
 is stored in the *scrollingText* element of the global XML file.
 
 * **The local annotation** is performed at the frame level according to the information contained in the *global XML file*. Two appropriate types of XML files are
 generated, one for the detection task and the other for the recognition task. Hereafter an extract of *detection XML file* of France24 TV channel:
 
-![D](/images/xmlD.png)
+<p align="center">
+  <img width="530" height="573" src="/images/xmlD.png">
+</p>
 
 The ground-truth information of the detection task are provided at the line level for each frame. The following figure depcits an example of a ground-truth XML file and its corresponding textline image:
 
-![R](/images/xmlR.png)
+<img src="/images/xmlR.png" width="716" height="175">
 
 ## Citation
 If you use `AcTiV-GT` please use the following citation
