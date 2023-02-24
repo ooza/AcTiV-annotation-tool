@@ -40,7 +40,8 @@ java -jar "AcTiV.jar"
 ```
 
 ## Citation
-If you use `AcTiV-GT` please use the following citation
+Please consider citing this work in your publications if it helps your research.
+
 
 ```bibtex
 @inproceedings{zayene2014semi,
